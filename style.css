@@ -1,0 +1,22 @@
+#google-logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10% 10% 10% 10%;
+}
+
+#searchbar{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#searchbar form{
+    width: 40%;
+}
+
+#searchbar input{
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
