@@ -8,14 +8,47 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav id="top-nav">
+        <ul>
+                
+            <li class="left-nav"><a href="#About">About</a></li>
+            <li class="left-nav"> <a href="#Store"> Store</a></li>
+            <li class="right-nav"> <a href="#Gmail"> Gmail</a></li>
+            <li class="right-nav"> <a href="#Images">Images</a> </li>
+        </ul>
+    </nav>
     <div id= "google-logo">
         <img  src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo">
     </div>
 
     <div id="searchbar">
-        <form>
-            <input type="text">
+        <form id="google-search">
+            <div>
+                <input type="search">
+            </div>
+            
+            
         </form>
+        <div id="search-button">
+            <button form="google-search">Search</button>
+            <button form="google-search">feeling lucky?</button>
+        </div>
     </div>
+
+    <footer>
+        <div class="left-footer">
+            <a href="">Advertising</a>
+            <a href="">Business</a>
+            <a href="">How Search Works</a>
+        </div>
+        <div class="center-footer">
+            <a href="">Carbon Neutral since 2007</a>
+        </div>
+        <div class="right-footer">
+            <a href="">Privacy</a>
+            <a href="">Terms</a>
+            <a href="">Settings</a>
+        </div>
+    </footer>
 </body>
 </html>
