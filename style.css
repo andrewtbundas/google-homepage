@@ -59,6 +59,19 @@ ul li{
     display: block;
 }
 
+#search-buttons{
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#search-buttons button{
+    border: 1px transparent solid;
+    padding:10px;
+    margin: 10px;
+    border-radius: 3px;
+}
 footer{
     background-color: rgb(242,242,242);
     display: flex;
